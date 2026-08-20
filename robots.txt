@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow GTM / Analytics Proxy Endpoint
+Disallow: /metrics/
+
+# Sitemap Location
+Sitemap: https://systemdevify.com/sitemap.xml
