@@ -1,0 +1,10 @@
+# security.txt - Vulnerability disclosure contact information
+# Compliant with RFC 9116
+
+Contact: https://www.linkedin.com/in/mahafuzul-haq/
+Contact: mailto:mahafuzulhaq99@gmail.com
+Expires: 2027-09-03T12:00:00.000Z
+Preferred-Languages: en, bn
+Canonical: https://systemdevify.com/.well-known/security.txt
+Canonical: https://systemdevify.com/security.txt
+Policy: https://systemdevify.com/#contact
