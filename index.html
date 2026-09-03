@@ -11,7 +11,11 @@
   <link rel="canonical" href="https://systemdevify.com/" />
 
   <!-- 3. CRITICAL CSS (Must load before GTM to prevent unstyled layout flash) -->
+  <!-- 3.1 Pre-connects -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+  <!-- 3.2 Pre-loads -->
   <link rel="preload" as="style" href="style.css">
+  <!-- 3.3 Load critical styles early -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 
