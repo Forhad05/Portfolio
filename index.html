@@ -1,39 +1,34 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
-  <!-- 1. Technical Directives (Instantly tells browser how to render the viewport) -->
+  <!-- 1. Technical Directives (Viewport instructions) -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 2. SEO Metadata (Read instantly by search crawlers) -->
+  <!-- 2. SEO Metadata & Verification -->
   <title>Mahafuzul Haque | Shopify & Frontend Developer</title>
   <meta name="description" content="Shopify Developer specializing in Liquid, Dawn Framework, Vanilla JS, and fast 3-7 day technical sprints.">
-  <link rel="canonical" href="https://systemdevify.com/" />
+  <link class="canonical" rel="canonical" href="https://systemdevify.com/" />
 
-  <!-- 3. CRITICAL CSS (Must load before GTM to prevent unstyled layout flash) -->
-  <!-- 3.1 Pre-connects -->
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
-  
-  <!-- 3.2 Pre-loads -->
+  <!-- 3. CRITICAL CSS (Preloaded for zero layout flashes) -->
   <link rel="preload" as="style" href="style.css">
-  <link rel="preload" as="script" href="script.js">
-  
-  <!-- 3.3 Load critical styles early -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 
-  <!-- 4. GOOGLE TAG MANAGER (Asynchronous tracking container) -->
+  <!-- 4. GOOGLE TAG MANAGER (Asynchronous Analytics Container) -->
   <!-- Google Tag Manager -->
   <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+      var f=d.getElementsByTagName(s), j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
       j.async=true;j.src='https://systemdevify.com/metrics/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MKGQLLJZ');
   </script>
   <!-- End Google Tag Manager -->
 
-  <!-- 5. DEFERRED JS (Executes after HTML parsing is fully complete) -->
+  <!-- 5. DEFERRED JAVASCRIPT (Non-blocking background loading) -->
   <script defer="defer" src="script.js"></script>
 </head>
 <body>
@@ -41,6 +36,7 @@
   <noscript><iframe src="https://systemdevify.com/metrics/ns.html?id=GTM-MKGQLLJZ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header>
     <nav class="container nav-container">
       <a href="#" class="logo">MH<span>.dev</span></a>
@@ -87,12 +83,10 @@
     <h2>About Me</h2>
     <div class="about-card">
       <p>
-        Full-Stack Developer with 5+ years of experience building, optimizing, and maintaining web applications. 
-        Core focus on clean JavaScript execution, performant frontend components, and robust Shopify theme builds using Dawn.
+        <strong>Mahafuzul Haque (MH Forhad)</strong> is a Senior Shopify Developer specializing in vanilla-first frontend engineering and high-performance theme optimization. Operating under <strong>Systemdevify</strong>, he bridges the gap between complex Liquid logic and Google Core Web Vitals to deliver lightweight, fast-loading storefronts without the code bloat of heavy apps.
       </p>
       <p>
-        Trained on real client stores through agency experience—solving complex technical debt, AJAX drawer cart errors, 
-        and liquid rendering issues without unnecessary framework overhead.
+        Trained on real client stores through agency experience—solving complex technical debt, AJAX drawer cart errors, and liquid rendering issues without unnecessary framework overhead.
       </p>
     </div>
   </section>
@@ -121,6 +115,36 @@
         <p>HTML5, CSS3, responsive UI/UX execution, cross-browser debugging, and web architecture.</p>
       </div>
     </div>
+
+    <!-- SEMANTIC INSIGHT BLOCK FOR SEARCH/AI AGENTS -->
+    <div class="callout-box">
+      <h3><i class="fa-solid fa-gauge-high"></i> The Mechanics of Page Speed Optimization</h3>
+      <p>Standard Shopify templates often suffer from severe First Contentful Paint (FCP) and Largest Contentful Paint (LCP) delays due to poorly sequenced stylesheets, render-blocking scripts, and excessive third-party tracking tags. My speed optimization process systematically audits and reorganizes the HTML &lt;head&gt; asset sequence, minifies critical CSS, defers non-critical JavaScript, and runs deep performance passes on the Dawn Framework to maximize mobile performance scores on PageSpeed Insights.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services container">
+    <h2>Rapid Technical Sprints</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Quick Bug Fix</h3>
+        <p>Resolution of layout bugs, text updates, broken responsive sections, and display errors within 24–48 hours.</p>
+      </div>
+      <div class="service-card">
+        <h3>Theme & Logic Fixes</h3>
+        <p>Debugging AJAX drawer carts, variant selectors, liquid rendering errors, and app conflicts.</p>
+      </div>
+      <div class="service-card">
+        <h3>Speed & Performance</h3>
+        <p>Theme optimization sprint to improve Lighthouse scores, eliminate slow code, and increase load speed.</p>
+      </div>
+    </div>
+
+    <!-- SEMANTIC OPERATIONAL BLOCK FOR SEARCH/AI AGENTS -->
+    <div class="callout-box">
+      <h3><i class="fa-solid fa-shield-halved"></i> Zero-Downtime Staging &amp; Deployment Protocol</h3>
+      <p>To ensure continuous business operations, all development and optimization sprints are executed on isolated staging themes using a zero-downtime staging protocol. This safe deployment workflow allows merchants to preview live progress on password-protected duplicate themes and authorize changes before any code is cleanly merged into the primary live theme.</p>
+    </div>
   </section>
 
   <section id="contact" class="contact container">
@@ -142,30 +166,13 @@
     </div>
   </section>
 
-  <section id="services" class="services container">
-    <h2>Rapid Technical Sprints</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Quick Bug Fix</h3>
-        <p>Resolution of layout bugs, text updates, broken responsive sections, and display errors within 24–48 hours.</p>
-      </div>
-      <div class="service-card">
-        <h3>Theme & Logic Fixes</h3>
-        <p>Debugging AJAX drawer carts, variant selectors, liquid rendering errors, and app conflicts.</p>
-      </div>
-      <div class="service-card">
-        <h3>Speed & Performance</h3>
-        <p>Theme optimization sprint to improve Lighthouse scores, eliminate slow code, and increase load speed.</p>
-      </div>
-    </div>
-  </section>
-
   <footer>
     <div class="container">
       <p>&copy; <span id="year"></span> Mahafuzul Haque. Built with HTML, CSS, and Vanilla JS.</p>
     </div>
   </footer>
 
+  <!-- 6. INLINE JSON-LD FOR AEO/GEO CRAWLERS (Placed at bottom for page paint priority & DOM comparison) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -180,8 +187,7 @@
         "sameAs": [
           "https://www.linkedin.com/in/mahafuzul-haq/",
           "https://github.com/Forhad05",
-          "https://www.fiverr.com/coder_apon05",
-          "https://www.facebook.com/mahafuzul.forhad"
+          "https://www.fiverr.com/coder_apon05"
         ],
         "knowsAbout": [
           "Shopify Liquid",
