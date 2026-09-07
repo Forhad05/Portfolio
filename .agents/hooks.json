@@ -1,0 +1,17 @@
+{
+  "obsidian-vault-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "obsidian_delete.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"decision\": \"deny\", \"reason\": \"Execution blocked: Deleting from the Obsidian vault is strictly prohibited by Master security policy.\"}'"
+          }
+        ]
+      }
+    ]
+  }
+}
+
