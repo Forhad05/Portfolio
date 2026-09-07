@@ -9,3 +9,6 @@
 ## 2. Project Standards (Portfolio)
 * **Design & Architecture**: Clean semantic HTML5, modern vanilla CSS3, responsive mobile-first layouts, and accessible standards (WCAG).
 * **Maintainability**: High readability, modular CSS, and zero unnecessary dependencies.
+
+## 3. Project Standards (Portfolio)
+* **R&D**: This project is to learn about kinds of necessary SEO, AEO & GEO services
