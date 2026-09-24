@@ -1,0 +1,23 @@
+{
+  "name": "Mahafuzul Haque | Shopify & Frontend Developer",
+  "short_name": "MH.dev",
+  "description": "Shopify Developer specializing in Liquid, Dawn Framework, Vanilla JS, and fast 3-7 day technical sprints.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "public/assets/SystemDevify-favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "public/assets/SystemDevify-favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
