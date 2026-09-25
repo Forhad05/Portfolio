@@ -1,7 +1,10 @@
+# robots.txt for SystemDevify (https://systemdevify.com)
+# Inquiries: support@mail.systemdevify.com | Security: security@mail.systemdevify.com
+
 User-agent: *
 Allow: /
 
-# Disallow GTM / Analytics Proxy Endpoint
+# Disallow internal analytics and proxy endpoints
 Disallow: /metrics/
 
 # Sitemap Location

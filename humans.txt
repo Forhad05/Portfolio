@@ -1,22 +1,26 @@
-# humans.txt - Profile of the humans who built this site
+# humans.txt - Profile of the team and technology behind SystemDevify
 # Standard format from humanstxt.org
 
-/* TEAM */
-Developer: Mahafuzul Haque (MH Forhad)
-Contact: mahafuzulhaq99@gmail.com
+/* LEADERSHIP & ARCHITECTURE */
+Founder & Principal Consultant: Mahafuzul Haque (MH Forhad)
+Consultancy: SystemDevify
+Storefront Audits: audit@outbound.systemdevify.com
+Partnerships: partners@mail.systemdevify.com
+Technical Support: support@mail.systemdevify.com
+Billing Inquiries: billing@mail.systemdevify.com
+Security: security@mail.systemdevify.com
 LinkedIn: https://www.linkedin.com/in/mahafuzul-haq/
 GitHub: https://github.com/Forhad05
-Fiverr: https://www.fiverr.com/coder_apon05
 Location: Kushtia, Khulna, Bangladesh
-Study: Statistics (National University of Bangladesh)
 
-/* TOOLS & AI COLLABORATION */
-Collaborator: AI Developer Assistants (assisted in layout planning, performance tuning, and structured data setup)
-Primary IDE: VS Code
-OS Environment: NixOS, CachyOS, WSL
+/* METHODOLOGY & AI COLLABORATION */
+Collaborator: AI Pair Programming (architecture validation, AST refactoring, and Core Web Vitals optimization)
+Primary IDE: VS Code on CachyOS (Linux Kernel)
+Containerized MCP Tools: Docker Desktop & MCP Gateway
 
-/* SITE TECHNOLOGY */
-Standards: HTML5, CSS3, Vanilla JavaScript (ES6)
-API & Frameworks: Core Web APIs, Web Components, Font Awesome
-Hosting: GitHub Pages with custom apex domain mapping
-Performance Target: Zero render-blocking script execution for sub-second FCP
+/* STOREFRONT TECHNOLOGY */
+Theme Architecture: Native Shopify Dawn (OS 2.0)
+Standards: HTML5, Modern CSS3, Pure Vanilla JavaScript (ES6+)
+Frameworks: Web Components, Native Web APIs
+Edge & Infrastructure: Cloudflare DNS, Edge Proxies, Serverless Webhook Middleware, Shopify GraphQL Admin API
+Performance Target: Sub-second Largest Contentful Paint (LCP) with zero third-party script bloat
