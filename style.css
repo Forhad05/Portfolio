@@ -496,3 +496,136 @@ footer {
     padding: 20px;
   }
 }
+
+/* --- SystemDevify Sponsor Section Styles --- */
+#sponsorship {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 2.5rem 2rem;
+    background: #0f172a;
+    color: #f8fafc;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    font-family: 'Fira Code', monospace, -apple-system, sans-serif;
+}
+
+#sponsorship h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+#sponsorship > p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width: 700px;
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.sponsor-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.sponsor-card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+}
+
+.sponsor-card.featured {
+    border-color: #0284c7;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    position: relative;
+}
+
+.sponsor-card.featured::before {
+    content: "Direct B2B";
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #0284c7;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+}
+
+.sponsor-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #f1f5f9;
+}
+
+.sponsor-card .price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin-bottom: 1rem;
+}
+
+.sponsor-card .price span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #94a3b8;
+}
+
+.sponsor-card p:not(.price) {
+    color: #cbd5e1;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+/* Button styles matching your minimal stack */
+.sponsor-card a {
+    display: inline-block;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #475569;
+    color: #f8fafc;
+}
+
+.btn-outline:hover {
+    background: #334155;
+    border-color: #64748b;
+}
+
+.btn-solid {
+    background: #38bdf8;
+    color: #0f172a;
+    border: 1px solid #38bdf8;
+}
+
+.btn-solid:hover {
+    background: #0ea5e9;
+    border-color: #0ea5e9;
+}
